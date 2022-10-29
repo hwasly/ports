@@ -1,0 +1,5 @@
+etc/pam.d/hwasly-login
+lib/pam_hwasly.so
+libexec/hwasly-pam
+man/man8/hwasly-login.8.gz
+sbin/hwasly-login

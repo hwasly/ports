@@ -1,0 +1,8 @@
+libexec/bsdinstall/hwasly
+libexec/bsdinstall/hwasly-import
+libexec/bsdinstall/hwasly-install
+libexec/bsdinstall/hwasly-reset
+libexec/bsdinstall/hwasly-rootpass
+libexec/bsdinstall/hwasly-ufs
+libexec/bsdinstall/hwasly-zfs
+libexec/bsdinstall/hwasly.subr

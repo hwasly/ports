@@ -5,7 +5,7 @@ CATEGORIES=	www
 PKGNAMEPREFIX=	${PHP_PKGNAMEPREFIX}
 PKGNAMESUFFIX=	4
 
-MAINTAINER=	franco@opnsense.org
+MAINTAINER=	franco@hwasly.org
 COMMENT=	Phalcon PHP Framework written in C-language
 WWW=		https://phalcon.io/
 

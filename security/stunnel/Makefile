@@ -37,7 +37,7 @@ FIPS_CONFIGURE_ENABLE=		fips
 IPV6_CONFIGURE_ENABLE=		ipv6
 LIBWRAP_CONFIGURE_ENABLE=	libwrap
 
-# OPNsense addition
+# HWasly addition
 OPTIONS_DEFINE+=		TLS_LOG_IDENT
 TLS_LOG_IDENT_DESC=		Send out ident messages for remote server connections
 TLS_LOG_IDENT_EXTRA_PATCHES+=	${FILESDIR}/extra-patch-tls-ident

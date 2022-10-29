@@ -1,6 +1,6 @@
 PORTNAME=	suricata
+PKGNAMESUFFIX=	-devel
 DISTVERSION=	6.0.8
-PORTREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	https://www.openinfosecfoundation.org/download/
 
@@ -36,7 +36,7 @@ MAKE_ENV=		RUSTFLAGS="${RUSTFLAGS} -C linker=${CC:Q} ${LDFLAGS:C/.+/-C link-arg=
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check
 
-CONFLICTS_INSTALL=	libhtp suricata-devel
+CONFLICTS_INSTALL=	libhtp suricata
 
 SUB_FILES=	pkg-message
 
@@ -78,7 +78,7 @@ HYPERSCAN_LIB_DEPENDS=	libhs.so:devel/hyperscan
 
 IPFW_CONFIGURE_ON=	--enable-ipfw
 
-LUAJIT_USES=		luajit
+LUAJIT_LIB_DEPENDS=	libluajit-5.1.so:lang/luajit-openresty
 LUAJIT_CONFIGURE_ON=	--enable-luajit
 
 LUA_USES=		lua:51

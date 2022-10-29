@@ -193,7 +193,7 @@ cbsd/etc/defaults/vm-freebsd-FreeBSD-x64-14.0-LATEST.conf
 cbsd/etc/defaults/vm-freebsd-GhostBSD-x64-22.conf
 cbsd/etc/defaults/vm-freebsd-HardenedBSD-x64-13-STABLE.conf
 cbsd/etc/defaults/vm-freebsd-MidnightBSD-x64-2.conf
-cbsd/etc/defaults/vm-freebsd-OPNsense-22-RELEASE-amd64.conf
+cbsd/etc/defaults/vm-freebsd-HWasly-22-RELEASE-amd64.conf
 cbsd/etc/defaults/vm-freebsd-TrueNAS-CORE-x64-13.conf
 cbsd/etc/defaults/vm-freebsd-XigmaNAS-12.conf
 cbsd/etc/defaults/vm-freebsd-cloud-FreeBSD-ufs-x64-12.3.conf
@@ -204,7 +204,7 @@ cbsd/etc/defaults/vm-freebsd-cloud-FreeBSD-zfs-x64-12.3.conf
 cbsd/etc/defaults/vm-freebsd-cloud-FreeBSD-zfs-x64-13.0.conf
 cbsd/etc/defaults/vm-freebsd-cloud-FreeBSD-zfs-x64-13.1.conf
 cbsd/etc/defaults/vm-freebsd-cloud-FreeBSD-zfs-x64-14.conf
-cbsd/etc/defaults/vm-freebsd-cloud-OPNSense-22-RELEASE-amd64-22.conf
+cbsd/etc/defaults/vm-freebsd-cloud-HWAsly-22-RELEASE-amd64-22.conf
 cbsd/etc/defaults/vm-freebsd-helloSystem-x64.conf
 cbsd/etc/defaults/vm-freebsd-pfSense-2-RELEASE-amd64.conf
 cbsd/etc/defaults/vm-linux-AlmaLinux-9-x86_64.conf

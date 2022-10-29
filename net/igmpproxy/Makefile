@@ -3,7 +3,7 @@ DISTVERSION=	0.3
 PORTEPOCH=	1
 CATEGORIES=	net
 
-MAINTAINER=	franco@opnsense.org
+MAINTAINER=	franco@hwasly.org
 COMMENT=	Multicast forwarding IGMP proxy
 WWW=		https://github.com/pali/igmpproxy
 

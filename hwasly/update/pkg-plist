@@ -1,0 +1,18 @@
+@postunexec mv %%PREFIX%%/sbin/hwasly-bootstrap.bak %%PREFIX%%/sbin/hwasly-bootstrap
+@preunexec cp %%PREFIX%%/sbin/hwasly-bootstrap %%PREFIX%%/sbin/hwasly-bootstrap.bak
+man/man8/hwasly-bootstrap.8.gz
+man/man8/hwasly-code.8.gz
+man/man8/hwasly-fetch.8.gz
+man/man8/hwasly-patch.8.gz
+man/man8/hwasly-revert.8.gz
+man/man8/hwasly-sign.8.gz
+man/man8/hwasly-update.8.gz
+man/man8/hwasly-verify.8.gz
+sbin/hwasly-bootstrap
+sbin/hwasly-code
+sbin/hwasly-fetch
+sbin/hwasly-patch
+sbin/hwasly-revert
+sbin/hwasly-sign
+sbin/hwasly-update
+sbin/hwasly-verify

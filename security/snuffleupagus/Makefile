@@ -4,7 +4,7 @@ DISTVERSION=	0.8.3
 CATEGORIES=	security
 PKGNAMEPREFIX=	${PHP_PKGNAMEPREFIX}
 
-MAINTAINER=	franco@opnsense.org
+MAINTAINER=	franco@hwasly.org
 COMMENT=	Security module for PHP
 WWW=		https://snuffleupagus.readthedocs.io/
 

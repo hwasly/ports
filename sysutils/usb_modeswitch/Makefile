@@ -6,7 +6,7 @@ DISTNAME=	${PORTNAME:S|_|-|}-${PORTVERSION}
 DISTFILES=	${DISTNAME}.tar.bz2 \
 		${DATANAME}.tar.bz2
 
-MAINTAINER=	franco@opnsense.org
+MAINTAINER=	franco@hwasly.org
 COMMENT=	Handling Mode-Switching USB Devices
 WWW=		https://www.draisberghof.de/usb_modeswitch/
 

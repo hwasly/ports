@@ -5,7 +5,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	KERNEL_ORG/linux/utils/util-linux/v${PORTVERPREFIX}/
 DISTNAME=	util-linux-${PORTVERSION}
 
-MAINTAINER=	franco@opnsense.org
+MAINTAINER=	franco@hwasly.org
 COMMENT=	Manage locks from shell scripts
 WWW=		https://www.kernel.org/pub/linux/utils/util-linux/
 
